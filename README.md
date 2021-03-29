@@ -5,6 +5,12 @@ This repo contains code to draw svg images of cellular automata.
 
 Example
 -------
+Before using this code, you should install the Python dependencies:
+
+```bash
+pip3 install -r requirements.txt
+```
+
 To make an image, first import the `Automaton` class:
 
 ```python
