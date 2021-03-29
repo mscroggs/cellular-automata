@@ -3,6 +3,8 @@ Cellular automata
 
 This repo contains code to draw svg images of cellular automata.
 
+![Rule 102](rule102.png)
+
 Example
 -------
 Before using this code, you should install the Python dependencies:
