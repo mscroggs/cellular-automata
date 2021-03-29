@@ -1,0 +1,15 @@
+name: Test code
+
+on:
+  push
+
+jobs:
+  style-checks:
+    name: Run style checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: pip3 install -r requirements.txt
+        name: Install python requirements
+      - run: python3 draw.py
+        name: Run draw.py

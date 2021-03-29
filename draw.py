@@ -1,3 +1,5 @@
+"""Example script that creates an image of 400 lines of rule 102."""
+
 from automaton import Automaton
 
 a = Automaton(102)
